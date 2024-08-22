@@ -1,2 +1,3 @@
-#Blog_Web.
-React app and backend server
+# Blog_Web.
+
+**React app and backend server**
