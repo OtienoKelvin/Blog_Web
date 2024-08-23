@@ -69,7 +69,7 @@ const Home = () => {
     return (
         <div className="home">
             <div className="posts">
-                {posts.map(post => (
+                {posts.map((post) => (
                     <div className="post" key={post.id}>
                         <div className="img">
                             <img src={`/upload/${post.image}`} alt={`Post ${post.id}`} /> {/* Correctly render the image */}

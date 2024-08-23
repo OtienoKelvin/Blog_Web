@@ -8,7 +8,7 @@ $lightGreen : #b9e7e7;
     justify-content: center;
 
     .container{
-        width: 1024px;
+        width: 80%;
 
 
         .link{
@@ -139,7 +139,7 @@ $lightGreen : #b9e7e7;
                 margin-top: 50px;
                 display: flex;
                 flex-direction: column;
-                gap: 150px;
+                gap: 50px;
 
                 .post{
                     display: flex;
@@ -176,7 +176,8 @@ $lightGreen : #b9e7e7;
                         flex: 3;
                         display: flex;
                         flex-direction: column;
-                        justify-content: space-between;
+                        gap: 20px;
+                        //justify-content: space-between;
 
                         h1{
                             font-size: 48px;
@@ -209,7 +210,7 @@ $lightGreen : #b9e7e7;
 
        //SINGLE PAGE
 
-       .single{
+        .single{
             display: flex;
             gap: 50px;
 
@@ -395,3 +396,4 @@ $lightGreen : #b9e7e7;
        }        
     }
 }
+
